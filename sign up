@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <style>
+        body{
+            background-color:rgb(235, 235, 235);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            /* padding-left: 40%; */
+           border-style:solid;
+           border-radius: 100px;
+           border-width: 5px;
+           border-color:violet;
+           font-size: larger;
+           ;
+        }
+        div button{
+            border-radius: 50px;
+            background-color:cyan;
+            /* padding: 20px; */
+            text-align: left;
+        }
+        input{
+            /* text-align: center; */
+            /* padding-right:100px; */
+        }
+        div{
+            background-color: aquamarine;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- <h1>Sign up</h1>
+        <p>create a account or <a href="#">sign in</a></p> -->
+    </header>
+    <body>
+        <div>
+            <form>
+                <h1>Sign up</h1>
+                <p>create a account or <a href="#">sign in</a></p>
+                <caption>Email address</caption><br>
+                <input type="email">
+                <p>Username</p>
+                <input type="text">
+                <p>Password</p>
+                <input type="password"><br>
+                <input type="checkbox" id="box">
+                <label for="box">I do not want to receive emails with advertising, news,<br> suggestions or marketing promotions </label><br>
+                <div> 
+                    <button type="submit">Sign up</button>
+                </div>
+            </form>
+                <P>By signing up to create an account, <br>you are accepting our terms of service and privacy policy</P>
+        </div>
+    </body>
+
+</body>
+</html>
